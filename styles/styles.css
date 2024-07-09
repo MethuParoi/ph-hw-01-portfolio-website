@@ -17,6 +17,10 @@ body {
   padding: 0;
   box-sizing: border-box;
   
+  width: 100%;
+  max-width: 2500px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
@@ -77,7 +81,8 @@ body {
     padding-left: 2rem;
     align-items: center;
     background-color: #fff8f3;
-    max-height: 70vh;
+    max-height: 65rem;
+    position: relative;
 }
 
 .hero__ch2 {
@@ -141,7 +146,7 @@ body {
 
 }
 .hero__ch3 {
-    position: relative;
+    
     width: 100rem;
 }
 
@@ -150,7 +155,7 @@ body {
     max-width: 50rem;
     height: auto;
     position: absolute;
-    top: -25rem;
+    top: 7.3rem;
     right: 10rem;
     z-index: 10;
 }
@@ -161,7 +166,7 @@ body {
     height: auto;
     z-index: 9;
     position: absolute;
-    top: -27rem;
+    top: 3rem;
     right: -1rem;
 }
 
