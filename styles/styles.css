@@ -1,0 +1,181 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+html {
+    font-size: 62.5%;
+  /* 62.5% of default 16px is 10px, it provides more flexibility*/
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  
+
+}
+
+/* Navbar styles */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 35rem;
+    
+    background-color: #fff8f3;
+}
+
+.logo__title{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #181818;
+}
+
+.logo--mod {
+    color: #FD6E0A;
+}
+
+/* button styles */
+.btn {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn__child {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #474747;
+    padding: 1rem 2rem;
+    background-color: #fff8f3;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn--mod {
+    background-color: #FD6E0A;
+    padding: 1.5rem 3rem;
+    margin-left: 1rem;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+
+}
+
+/* hero section styles */
+
+.hero {
+    display: flex;
+    padding-left: 2rem;
+    align-items: center;
+    background-color: #fff8f3;
+    max-height: 70vh;
+}
+
+.hero__ch2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 5rem;
+}
+
+.hero__title {
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: #181818;
+}
+
+.hero__title--mod {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #181818;
+    display: block;
+}
+
+.hero__desc {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #474747;
+    max-width: 80rem;
+}
+
+.hero--btn1 {
+    background-color: #FD6E0A;
+    padding: 1.5rem 2rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.download {
+    color: white;
+    font-size: 1.8rem;
+    padding-right: 1rem;
+}
+
+.hero--btn2 {
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    padding: 1.5rem 3.5rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+    background-color: #fff8f3;
+    border-radius: 5px;
+    margin-left: 2rem;
+}
+
+.call {
+    color: #FD6E0A;
+    font-size: 1.8rem;
+    padding-right: 1rem;
+
+}
+.hero__ch3 {
+    position: relative;
+    width: 100rem;
+}
+
+.img--hardy {
+    width: 100%;
+    max-width: 50rem;
+    height: auto;
+    position: absolute;
+    top: -25rem;
+    right: 10rem;
+    z-index: 10;
+}
+
+.img--bg {
+    width: 100%;
+    max-width: 100rem;
+    height: auto;
+    z-index: 9;
+    position: absolute;
+    top: -27rem;
+    right: -1rem;
+}
+
+.img-dev {
+    padding-bottom: 13rem;
+    height: 75rem;
+}
+
+/* Main section styles */
+
+.main {
+width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3rem;
+}
